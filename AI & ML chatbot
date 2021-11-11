@@ -1,0 +1,100 @@
+import random
+
+var_1 = ['hi','hello']
+var_2 = ['how are you','how are you doing','how is your health']
+var_3 = ['what is your name','how do i call you','name','your name please']
+var_4 = ['what is ai','what do you mean by ai','define ai','ai means','what is artificial intelligence','what do you mean by artificial intelligence','define artificial intelligence','artificial intelligence means']
+var_5 = ['what is ml','what do you mean by ml','define ml','ml means','what is machine learning','what do you mean by machine learning','define machine learning','machine learning means']
+var_6 = ['what is the use of ai','uses of ai','applications of ai','what are the applications of ai','what is the use of artificial intelligence','uses of artificial intelligence','applications of artificial intelligence','what are the applications of artificial intelligence']
+var_7 = ['what are the differences of ai and ml','are the ai and ml are different','what are the differences of artificial intelligence and machine learning','are the artificial intelligence and machine learning are different']
+var_8 = ['what are the types of ai','how many types in ai','what are the types of artificial intelligence','how many types in artificial intelligence']
+var_9 = ['what are the types of ml','how many types in ml','what are the types of machine learning','how many types in machine learning']
+var_10 = ['which programming languages used for ai','what are the programming languages used for ai','which programming languages used for artificial intelligence','what are the programming languages used for artificial intelligence']
+var_11 = ['what is the intelligent agent in ai and where they used','what is the intelligent agent in artificial intelligence and where they used']
+var_12 = ['how is ml related to ai','how is machine learning related to artificial intelligence']
+var_13 = ['which assessment is used to test the intelligence of the machine']
+var_14 = ['what is the use of computer vision in ai','what is the use of computer vision in artificial intelligence']
+var_15 = ['what is knowledge representation in ai','what are the various techniques of knowledge representation in ai','what is knowledge representation in artificial intelligence','what are the various techniques of knowledge representation in artificial intelligence']
+var_16 = ['what are the different areas where ai has a great impact','in which areas ai has great impact','what are the different areas where artificial intelligence has a great impact','in which areas artificial intelligence has great impact']
+var_17 = ['what are the different software platforms for ai development','which software platforms used for ai development','what are the different software platforms for artificial intelligence development','which software platforms used for artificial intelligence development']
+var_18 = ['what are the job opportunities based on ai and ml','what are the jobs we will get on learning ai and ml','what are the job opportunities based on artificial intelligence and machine learning','what are the jobs we will get on learning artificial intelligence and machine learning']
+var_19 = ['which ai feild is best','which artificial intelligence feild is best']
+var_20 = ['is learning ai is hard','is learning artificial intelligence is hard']
+var_21 = ['what is the fullform of ai']
+var_22 = ['what is the fullform of ml']
+var_23 = ['what are the top companies in ai','what are the top companies in artificial intelligence']
+
+while True:
+    user_input = input('Lavanya said to bot : ')
+    
+    if user_input.lower() in var_1:
+        bot = ['hello','hi']
+        print('Bot replied to Lavanya : '+random.choice(bot)+'\n')
+    elif user_input.lower() in var_2:
+        bot = ['I am good','I am doing good','I am fine']
+        print('Bot replied to Lavanya :'+random.choice(bot)+'\n')
+    elif user_input.lower() in var_3:
+        bot = ['My name is Chatterbot','my name is chatterbot']
+        print('Bot replied to Lavanya : '+random.choice(bot)+'\n')
+    elif user_input.lower() in var_4:
+        bot = ['Artificial intelligence is computer science technology that emphasizes creating intelligent machine that can mimic human behavior.']
+        print('Bot replied to Lavanya : '+random.choice(bot)+'\n')
+    elif user_input.lower() in var_5:
+        bot = ['Machine learning (ML) is a type of artificial intelligence (AI). Machine learning algorithms use historical data as input to predict new output values.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_6:
+        bot = ['We need AI for todays world to solve complex problems, make our lives more smoothly by automating the routine work, saving the manpower and to perform many more other tasks.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_7:
+        bot = ['AI:It is a technology that is used to create intelligent machines that can mimic human behavior.ML:It is a subset of AI that learns from past data and experiences.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_8:
+        bot = ['Based on Capabilities:a.Weak AI or Narrow AI,b.General AI,c.Strong AI.Based on Functionalities:a.Reactive Machines,b.Limited Memory,c.Theory of Mind,d.Self-Awarness.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_9:
+        bot = ['Supervised Learning,Unsupervised Learning,Reinforcement Learning.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_10:
+        bot = ['Python,Java,Lisp,R,Prolog']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_11:
+        bot = ['The intelligent agent can be any autonomous entity that perceives    its environment through the sensors and act on it using the    actuators for achieving its goal.Uses:a. Information Access and Navigations such as Search Engine,b. Repetitive Activities,c. Domain Experts,d. Chatbots']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_12:
+        bot = ['Machine learning is a subset or subfield of Artificial intelligence. It is a way of achieving AI. As both are the two different concepts and the relation between both can be understood as "AI uses different Machine learning algorithms and concepts to solve the complex problems."']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_13:
+        bot = ['Turning test']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_14:
+        bot = ['computer vision uses AI technology to solve complex problems such as image processing, object detections, etc.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_15:
+        bot = ['Knowledge representation is the part of AI, which is concerned with the thinking of AI agents. It is used to represent the knowledge about the real world to the AI agents so that they can understand and utilize this information for solving the complex problems in AI.a. Objects,b. Eventsc. Performance,d. Meta-Knowledge,e. Facts,f. Knowledge-base']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_16:
+        bot = ['a. Autonomous Transportation,b. Education-system powered by AI.,c. Healthcare,d. Predictive Policing,e. Space Exploration,f. Entertainment']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_17:
+        bot = ['a. Google Cloud AI platform,b. Microsoft Azure AI platform,c. IBM Watson,d. TensorFlow,e. Infosys Nia,f. Rainbird,g. Dialogflow']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_18:
+        bot = ['a.Data Scientist,b.Machine Learning Engineer,c.Research Scientist,d.Business Intelligence Developer,e.AI Data Analyst,f.Big data engineering,g.Robotics Scientist,h.AI engineer']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_19:
+        bot = ['machine learning']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_20:
+        bot = ['There is no doubt the science of advancing machine learning algorithms through research is difficult. It requires creativity, experimentation and tenacity. Machine learning remains a hard problem when implementing existing algorithms and models to work well for your new application.']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_21:
+        bot = ['artificial intelligence']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_22:
+        bot = ['machine learning']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    elif user_input.lower() in var_23:
+        bot = ['a.Amazon Web Services,b.Google Cloud Platform,c.IBM Cloud,d.Microsoft Azure,e.Alibaba Cloud']
+        print('Bot replied to Lavanya : ' + random.choice(bot) + '\n')
+    else:
+        print('Bot replied to Lavanya - Sorry what are you asking , I am not gettion that ?'+'\n')
